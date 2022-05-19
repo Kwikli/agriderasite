@@ -1,0 +1,81 @@
+.middle {
+    /*background-color: rgb(40, 216, 216);*/
+    width: 1920px;
+    height: 1900px;
+    
+}
+
+.middle_text{
+    font-size: 20px; 
+    align-items: baseline; 
+}
+
+.svg_set{
+    margin-top: 55px;
+    padding-bottom: 13px;
+}
+
+.margin_vm{
+    margin-top: 1000px;
+}
+
+.padding_middle{
+    padding-bottom: 65px;
+    padding-top: 65px;
+    background-color: #f8f8f8;
+}
+
+.semen_picture{
+    background: url('/images/semen.svg');
+    background-color: #f8f8f8; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1098px;
+}
+
+.flower_css{
+    object-fit: cover;
+    filter: drop-shadow(0px 20px 40px rgba(0,0,0,0.25));
+    border: 1px solid black;
+}
+
+.col_middle{
+    vertical-align: middle;
+}
+
+.main_activities_color{
+    background-color: #EDEDED;
+    background-size: cover;
+}
+
+.line{
+justify-items: center;
+width: 183px;
+height: 0px;
+
+border: 1px solid #57984C;
+}
+
+hr{
+    border-top: 2px solid #57984C;
+}
+
+.green_text{
+    color: #57984C;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.topic{
+    font-size: 64px;
+    color: #324950;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main_v{
+    font-weight: 400;
+    font-size: 20px;
+    color: #324950;
+}
