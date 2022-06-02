@@ -53,6 +53,11 @@ body{
 
 }
 
+.ex:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
 a:hover {
     text-decoration: underline;
   }
@@ -75,4 +80,8 @@ a:hover {
     border-radius: 0%;
     font-size: 16px;
     padding:15px 30px 15px 30px;
+}
+
+.shadow_head{
+    box-shadow: -1px 0px 20px 0px rgba(0,0,0,0.34);
 }
