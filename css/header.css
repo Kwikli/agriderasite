@@ -20,6 +20,17 @@ html{
     margin-top: 13px;
 }
 
+.search{
+    background: url(../images/ico_search.svg);
+    position: absolute;
+    border: none;
+    right: 16px;
+    top: 23px;
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+}
+
 .searcher input[type=text]{
     border:none;
     background: transparent;
@@ -28,6 +39,7 @@ html{
     margin-top: 21px;
     padding: 0 165px 0 0;
     display: inline-flex;
+    position: relative;
 }
 
 body{
@@ -84,4 +96,5 @@ a:hover {
 
 .shadow_head{
     box-shadow: -1px 0px 20px 0px rgba(0,0,0,0.34);
+    position: relative;
 }
