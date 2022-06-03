@@ -287,3 +287,53 @@ li{
 li span{
     color: #324950;
 }
+
+
+
+.topic_contact{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 142.7%;
+    color: #324950;
+}
+
+.contact_us{
+    background-color: #f7f7f7;
+}
+
+.name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #324950;
+    margin-top: 17px;
+}
+
+.contact_input{
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 350px;
+    height: 45px;
+}
+
+.send_mes{
+    font-style: normal;
+font-weight: 400;
+font-size: 17px;
+height: 45px;
+color: #FFFFFF;
+}
+
+.adress_text{
+    font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+text-align: center;
+color: #324950;
+}
