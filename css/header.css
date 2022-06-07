@@ -5,17 +5,25 @@ html{
 }
 
 .form-control-range{
-    height: 779px; 
+    height: 622px; 
 }
 
 #header-background{
-    background:url(../images//Banner_bg_line.png);
+    background:url(../images//Banner_bg_line_622.png);
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.header-background_300{
+    background:url(../images//Banner_bg_line_300.png);
+    background-repeat: no-repeat;
+    background-position:top;
 }
 
 .plogo{
-    width: 226px;
+    /*width: 226px;*/
     height: 113px;
-    text-align: center;
+    text-align: center!important;
     float: left;
     margin-top: 13px;
 }
@@ -47,6 +55,8 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: RobotoSlab-Regular;
 }
+
+
 
 .h_size{
     font-size: 18px;
@@ -97,4 +107,8 @@ a:hover {
 .shadow_head{
     box-shadow: -1px 0px 20px 0px rgba(0,0,0,0.34);
     position: relative;
+}
+
+.img_1{
+    position:absolute;
 }

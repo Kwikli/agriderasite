@@ -1,0 +1,199 @@
+@media (max-width: 1200px) {
+    .flower_css{
+        width: 100%;
+        
+    }
+    .main_act{
+        width: 99%;
+        height: auto;
+    }
+    .mrg{
+        margin-top:332px;
+    }
+    .pdf_mrg{
+        margin-left: 250px;
+    }
+    .mrg_right{
+        margin-left: 5px;
+    }
+    .contact_input{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .mrg_right{
+        margin-left: auto;
+    }
+    .tomato_topic{
+        font-size: 45px;
+        line-height: 48px;
+    }
+    .pdf_mrg{
+        margin-left: 130px;
+    }
+    .searcher input[type=text] {
+        padding: 0 116px 0 0;
+    }  
+    .flower_css{
+        width: 63%;
+    } 
+    .mrg{
+        margin-top: 20px;
+        text-align: right;
+    }
+    .order-first{
+        order: -1;
+    }
+    .text-left{
+        text-align: right!important;
+    }
+    .semen_picture{
+        height: 1213px;
+    }
+    .heit_topic{
+        height: 83px;
+    }
+    .tomato_id{
+        height: auto;
+    }
+    .card{
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .pdf_mrg{
+        margin-left: 310px;
+    }
+    .searcher input[type=text] {
+        padding: 0 27px 0 0;
+    }  
+    .flower_css{
+        width: 100%;
+        height: auto;
+    }
+    .order-first{
+        order: -1;
+    }
+    .mrg{
+        margin-top:15px;
+    }
+    .padding_middle{
+        padding-top: 50px;
+    }
+    .svg_ico{
+        width: 120px;
+    }
+    .plogo{
+        float: none;
+        text-align: center;
+    }
+    .searcher input[type=text] {
+        padding: 0;
+    } 
+    .semen_picture{
+        height: 1368px;
+    }
+    .heit_topic{
+        height: 25px;
+        margin-top: 25px;
+    }
+    .turnon{
+        display: none!important;
+    }
+    .turnoff{
+        display: grid;
+    }
+}
+
+@media (max-width: 395px) {
+      .heit_topic{
+          height: 45px;
+      }
+}
+
+@media (max-width: 374px) {
+    .text_name{
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 544px) {
+    .search{
+        display: none;
+    }
+    .pdf_mrg{
+        margin-left: 1px;
+    }
+    .center{
+        text-align: center;
+        width: 100%;
+    }
+    .semen_picture{
+        height: 1215px;
+    }
+    .svg_ico{
+        width: 120px;
+    }
+    .searcher input[type=text] {
+        padding: 0;
+    }   
+    .col-6{
+        width: 100%;
+    }
+    .h_size{
+        width: 100%;
+        padding-top: 3px;
+        padding-right: 9px;
+        font-size: 14px;
+        
+    }
+    .searcher{
+        align-content: center;
+    }
+    .plogo{
+        align-items: center!important;
+    }
+
+    .order-first{
+        order: -1;
+    }
+
+    .mrg{
+        margin-top:15px;
+    }
+
+    .text-left{
+        text-align: right!important;
+    }
+    .footer_img{
+        margin-top: 25px;
+    }
+    .html,body{
+        width: 100%;
+    }
+    .text-right{
+        text-align: center!important;
+    }
+    .search{
+        right: 24%;
+    }
+    .text_name{
+        margin-top: 85px;
+    }
+    .padding_middle{
+        padding-top: 100px;
+    }
+    .topic_arg{
+        text-align: center;
+    }
+}
+
+@media (max-width: 510px) {
+    .send_mes{
+        margin-top: 22px;
+    }
+}

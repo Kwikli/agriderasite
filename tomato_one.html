@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,15 +20,20 @@
     <script src="css/bootstrap.bundle.min.js"></script>
 
     <header class="shadow_head">
-        <div class="container">
-            <div class="row">
-                <div class="col-6"> <span class="align-middle">
-                    <img src="images/Logo_tomato.png" style="padding-top: 18px;">
-                </span></div>
-                <div class="col-6 text-right">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container">
+                
+            <div class="col-6 pb-3"> <span class="align-middle">
+                <img src="images/Logo_tomato.png" style="padding-top: 18px; max-width: 150%;">
+            </span></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="col-12 text-right">
                     <div class="searcher">
-						<input type="text" placeholder="Search..."><button class="search"></button>   
-					</div>
+						<input type="text" placeholder="Search..."><button class="search"></button>    
+						</div>
 						<p></p>
 						<div class="h_size" style="padding-top: 11px; padding-bottom: 19px;"> 
 							<a href="index.html">Home</a>
@@ -39,7 +45,8 @@
 						</div>
                 </div>
             </div>
-        </div>
+            </div>
+          </nav>
     </header>
 
     
@@ -50,7 +57,7 @@
                    Return to all tomatoes</a>
                 </div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                     <div class="tomato_topic">
                     <div style="color:#324950;">TAG 1002 (TAG 809)<p></p></div>
                     Tomato Determinate<p></p>
@@ -59,7 +66,7 @@
                     <img src="images/Union.svg"><p></p>
                     <div class="quality_text quality">Very high yield and excellent fruits quality!</div>
 
-                    <div class="green_topic" style="margin-bottom: 30px;margin-top: 40px;">
+                    <div class="green_topic turnon" style="margin-bottom: 30px;margin-top: 40px;">
                         CHARACTERISTICS
                         <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;">
                         <div class="topic_text" style="line-height: 162%;">
@@ -70,51 +77,65 @@
                     </div>
 
                     </div>
-                    <div class="col-6 align-items-lg-end">
+                    <div class="col-md-6 align-items-lg-end">
                         <img src="images/tag1002_1.png" class="tags_pictures">
-                        <div style="padding-left: 323px;">
+                        <div class="pdf_mrg">
                         <a href="" class="no_und">
                             <div class="pdf_button" style="margin-top: 26px; padding: 10px 0 0 38px; background: url(images/pdf.svg) no-repeat 17px; text-align: center;">
                             <b class="align-text-bottom" style="padding-bottom:11px;">Download PDF</b></div></a></div>
                     </div>
                 </div>
-                <div class="row" style="padding-bottom: 200px;">
-                    <div class="green_topic" style="margin-right:165px; margin-left: 15px; padding-bottom: 25px;">
-                        Plant
-                        <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px; "><div class="topic_text">
-                        <li><span>Strong vigor that provides good leaf coverage.</span></li>
-                        <li><span>Very high productivity with good fruit setting.</span></li>
-                        <li><span>Early matured variety.</span></li></div>
+                <div class="row" style="padding-bottom: 150px;">
+                    <div class="col-md-6">
+                        <div class="green_topic turnoff">
+                            CHARACTERISTICS
+                            <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;">
+                            <div class="topic_text" style="line-height: 162%;">
+                            <b>Resistance<br></b>
+                            HR: ToMV:0-2; Fol: 1,2; Ve/Vd;<br>
+                            IR: TYLCV<br>
+                                </div>
+                        </div>
+                        <div class="green_topic" >
+                            Plant
+                            <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px; "><div class="topic_text">
+                            <li><span>Strong vigor that provides good leaf coverage.</span></li>
+                            <li><span>Very high productivity with good fruit setting.</span></li>
+                            <li><span>Early matured variety.</span></li></div>
+                        </div>
+                        <div class="green_topic" >
+                            Fruit
+                            <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;"><div class="topic_text">
+                                <li><span>Long shelf life on plant and post harvest.</span></li>
+                                <li><span>Nice shiny attractive deep red color.</span></li>
+                                <li><span>Average fruit size: 140 – 160 grams.</span></li></div>
+                        </div>
                     </div>
-                    <div class="green_topic" style=" margin-left: 15px; padding-bottom: 25px;">
-                        Cycle
-                        <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;"><div class="topic_text">
-                            <li><span>Spring</span></li>
-                            <li><span>Fall</span></li>
-                            <li><span>Winter</span></li></div>
+                    <div class="col-md-6">
+                        <div class="green_topic" >
+                            Cycle
+                            <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;"><div class="topic_text">
+                                <li><span>Spring</span></li>
+                                <li><span>Fall</span></li>
+                                <li><span>Winter</span></li></div>
+                        </div>
+                        <div class="green_topic" >
+                            Color
+                            <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;"><div class="topic_text">
+                            Red</div>
+                        </div>
                     </div>
-                    <div class="green_topic" style="margin-right:208px; margin-left: 15px; padding-bottom: 25px;">
-                        Fruit
-                        <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;"><div class="topic_text">
-                            <li><span>Long shelf life on plant and post harvest.</span></li>
-                            <li><span>Nice shiny attractive deep red color.</span></li>
-                            <li><span>Average fruit size: 140 – 160 grams.</span></li></div>
-                    </div>
-                    <div class="green_topic" style=" margin-left: 15px; padding-bottom: 25px;">
-                        Color
-                        <hr style="width: 163px; margin-right: 0; margin-left: 0; margin-top: 7px;"><div class="topic_text">
-                        Red</div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </middle>
 
-    <footer class="page-footer colorr ">
+	<footer class="page-footer colorr ">
         <div class="container">
         <div class="row align-middle pt-3 pb-3"> 
-            <div class="col-8">
-                <div class="footer_links">
+            <div class="col-md-8">
+                <div class="footer_links text-justify">
                         <a href="#" class="link">PROFILE</a> 
                         <a href="#" class="link">MANAGEMENT</a> 
                         <a href="#" class="link">PRODUCTS</a> 
@@ -124,7 +145,7 @@
                         <a href="#" class="link">CONTACT</a> 
                         </div>
             </div>
-            <div class="col-4 text-left footer_images">
+            <div class="col-md-4 footer_images footer_img">
                 <a href=""><img src="images/in.svg"></a>
                 <a href=""><img src="images/insta.svg"></a>
                 <a href=""><img src="images/youtube.svg"></a>
@@ -136,6 +157,12 @@
         <div class="footer-copyright pt-3 pb-3 text-center align-middle text_color">
             AGRIDERA SEEDS & AGRICULTURE LTD. © 2020 
         </div>
-    </footer>		
+    </footer>	
+
+    <section>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </section>	
 </body>
 </html>

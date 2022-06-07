@@ -15,8 +15,12 @@
 }
 
 .footer_images a{
-    
+   
     padding-right: 10px;
+}
+
+.footer_img{
+    text-align: center!important;
 }
 
 .text_color{

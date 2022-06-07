@@ -12,23 +12,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<title>Products</title>
 </head>	
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-6"> <span class="align-middle">
-                    <img src="images/Logo_tomato.png" style="padding-top: 18px;">
-                </span></div>
-                <div class="col-6 text-right">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container">
+                
+            <div class="col-6 pb-3"> <span class="align-middle">
+                <img src="images/Logo_tomato.png" style="padding-top: 18px; max-width: 150%;">
+            </span></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="col-12 text-right">
                     <div class="searcher">
-						<input type="text" placeholder="Search..."><button class="search"></button>     
+						<input type="text" placeholder="Search..."><button class="search"></button>    
 						</div>
 						<p></p>
 						<div class="h_size" style="padding-top: 11px; padding-bottom: 19px;"> 
-							<a href="index.html">Home</a> 
+							<a href="index.html">Home</a>
 							<a href="companyProfile.html">Company Profile</a> 
 							<a href="products.html">Products</a> 
 							<a href="">Services</a> 
@@ -37,7 +42,8 @@
 						</div>
                 </div>
             </div>
-        </div>
+            </div>
+          </nav>
     </header>
 
     <middle>
@@ -71,6 +77,12 @@
         <div class="footer-copyright pt-3 pb-3 text-center align-middle text_color">
             AGRIDERA SEEDS & AGRICULTURE LTD. © 2020 
         </div>
-    </footer>	
+    </footer>
+    
+    <section>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </section>
 </body>
 </html>

@@ -2,12 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=320, initial-scale=1.0">
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,29 +20,39 @@
 <body>
 	<script src="css/bootstrap.bundle.min.js"></script>
 
-		<header id="header-background">
+
+	<nav class="navbar navbar-expand-md navbar-light bg-white header-background_300" style="height:100%; padding-bottom: 7px;">
+
+		<div class="container">
+			
+		<div class="col-6 pb-3"> <span class="align-middle">
+			<img src="images/Logo.png" style="padding-top: 18px; max-width: 150%;">
+		</span></div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="col-12 text-right">
+				<div class="searcher">
+					<input type="text" placeholder="Search..."><button class="search"></button>    
+					</div>
+					<p></p>
+					<div class="h_size" style="padding-top: 11px; padding-bottom: 19px;"> 
+						<a href="index.html">Home</a>
+						<a href="companyProfile.html">Company Profile</a> 
+						<a href="products.html">Products</a> 
+						<a href="">Services</a> 
+						<a href="">R & D</a> 
+						<a href="contact_us.html">Contact</a>  
+					</div>
+			</div>
+		</div>
+		</div>
+	  </nav>
+	
+	<header id="header-background">
 			<div class="container form-control-range">
-				<div class="row">
-					<div class="col-6">
-						<div class="text-center plogo">
-							<img src="images/Logo.png">
-						</div>
-					</div>
-					<div class="col-6 text-right ">
-						<div class="searcher">
-						<input type="text" placeholder="Search..."> <button class="search"></button>    
-						</div>
-						<p></p>
-						<div class="h_size">
-							<a href="index.html">Home</a> 
-							<a href="companyProfile.html">Company Profile</a> 
-							<a href="products.html">Products</a> 
-							<a href="">Services</a> 
-							<a href="">R & D</a> 
-							<a href="contact_us.html">Contact</a>  
-						</div>
-					</div>
-				</div>
+				
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center">
@@ -62,46 +74,46 @@
 
 		<middle class="middle">
 			<div class="container-sm text-center middle_text">
-				<div class="row svg_set">
+				<div class="row svg_set mr-1 ml-1">
 					<div class="col">	
-						<img src="images/wheet.svg"> <p>
+						<img src="images/wheet.svg" class="svg_ico"> <p>
 						Wheet
 					</div>	
 					<div class="col">	
-						<img src="images/watermelon.svg"> <p>
+						<img src="images/watermelon.svg" class="svg_ico"> <p>
 						Confection Watermelon
 					</div>
 					<div class="col">
-						<img src="images/clover.svg"> <p>	
+						<img src="images/clover.svg" class="svg_ico"> <p>	
 						Clover
 					</div>
 					<div class="col">
-						<img src="images/sunflower.svg"> <p>	
+						<img src="images/sunflower.svg" class="svg_ico"> <p>	
 						Confection Sunflower	
 					</div>
 					<div class="col">	
-						<img src="images/tomato.svg"> <p>
+						<img src="images/tomato.svg" class="svg_ico"> <p>
 						Tomato
 					</div>
 					<div class="col">	
-						<img src="images/eggplant.svg"> <p>
+						<img src="images/eggplant.svg" class="svg_ico"> <p>
 						Eggplant P/O
 					</div>
 					<div class="col">
-						<img src="images/ornamental_sunflower.svg"><p> 
+						<img src="images/ornamental_sunflower.svg" class="svg_ico"><p> 
 						Ornamental Sunflower	
 				    </div>
 				</div>	
 			</div>		
 		</middle>	
 
-        <div class="padding_middle"></div>
+        <div class="padding_middle1"></div>
 
 		<div vision_mission>
 				<div class="semen_picture semen">
-					<div class="container">
+					<div class="container ">
 						<div class="row align-items-center">
-							<div class="col-6 middle_text">
+							<div class="col-lg-6 middle_text">
 								<div class="topic">Vision</div>
 								<img src="images/Union.svg">
 								<p><div class="main_v">
@@ -111,15 +123,15 @@
 								population.
 								</div></p>
 							</div>
-							<div class="col-6">
+							<div class="col-lg-6">
 								<img src="images/flower.png" class="flower_css">
 							</div>
 						</div>
-						<div class="row align-items-center" style="margin-top: 177px;">
-							<div class="col-6">
+						<div class="row align-items-center mrg">
+							<div class="col-lg-6">
 								<img src="images/flower2.png" class="flower_css">
 							</div>
-							<div class="col-6 pl-5 middle_text">
+							<div class="col-lg-6 pl-5 middle_text order-first text-left ">
 								<div class="topic">Mission</div>
 								<p><img src="images/Union.svg"></p><div class="main_v">
 								Breeding and marketing seeds for advanced field 
@@ -137,26 +149,16 @@
 		<main_activities>
 			<div class="main_activities_color">
 				<div class="text-center">
-			<H1 style="padding-top: 59px;padding-bottom: 16px;" class="topic">Agridera's main activities</H1>
+			<H1 style="padding-top: 59px;padding-bottom: 16px;" class="topic_agr">Agridera's main activities</H1>
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-4">
 						<img src="images/Union.svg">
 					</div>
 				</div>
-				<div class="row justify-content-center">
-					<div class="col">
-						<a href=""><img src="images/field_crop.png" style="padding-top: 25px;"></a>
-					</div>
-					<div class="col">
-						<a href="tomato_all.html"><img src="images/vegetable.png"></a>
-					</div>
-					<div class="col">
-						<a href=""><img src="images/ornamental.png" style="padding-top: 44px;"></a>
-					</div>
-				</div>
-				<div class="row pb-5">
-					<div class="col">
+				<div class="row justify-content-center pb-5">
+					<div class="col-md-4">
+						<a href=""><img src="images/field_crop.png"  class="main_act"></a>
 						<div class="green_text">
 							Open field crop seeds
 						</div>
@@ -164,7 +166,8 @@
 						wheat, cotton, legumes,<br>
 						hybrid confection sunflower
 					</div>
-					<div class="col">
+					<div class="col-md-4">
+						<a href="tomato_all.html"><img src="images/vegetable.png" class="main_act"></a>
 						<div class="green_text">
 							Vegetable seeds	
 						</div>	
@@ -172,7 +175,8 @@
 						hybrid open field tomatoes,<br>
 						eggplant, onion, paprika, etc.
 					</div>
-					<div class="col">
+					<div class="col-md-4">
+						<a href=""><img src="images/ornamental.png"  class="main_act"></a>
 						<div class="green_text">
 							Ornamental seeds
 						</div>
@@ -181,6 +185,7 @@
 						patio tomatoes, Bells of Irland, etc.
 					</div>
 				</div>
+				
 		 	</div>
 			 	</div>
 			 </div>
@@ -189,8 +194,8 @@
 		<footer class="page-footer colorr ">
 			<div class="container">
 			<div class="row align-middle pt-3 pb-3"> 
-				<div class="col-8">
-					<div class="footer_links">
+				<div class="col-md-8">
+					<div class="footer_links text-justify">
 							<a href="#" class="link">PROFILE</a> 
 							<a href="#" class="link">MANAGEMENT</a> 
 							<a href="#" class="link">PRODUCTS</a> 
@@ -200,7 +205,7 @@
 							<a href="#" class="link">CONTACT</a> 
 							</div>
 				</div>
-				<div class="col-4 text-left footer_images">
+				<div class="col-md-4 footer_images footer_img">
 					<a href=""><img src="images/in.svg"></a>
 					<a href=""><img src="images/insta.svg"></a>
 					<a href=""><img src="images/youtube.svg"></a>
@@ -212,6 +217,12 @@
 			<div class="footer-copyright pt-3 pb-3 text-center align-middle text_color">
 				AGRIDERA SEEDS & AGRICULTURE LTD. © 2020 
 			</div>
-		</footer>		
+		</footer>	
+		
+		<section>
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+			</section>		
 </body>
 </html>

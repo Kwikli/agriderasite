@@ -2,12 +2,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=320, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +18,18 @@
 </head>	
 <body>
     <script src="css/bootstrap.bundle.min.js"></script>
-
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-6"> <span class="align-middle">
-                    <img src="images/Logo_tomato.png" style="padding-top: 18px;">
-                </span></div>
-                <div class="col-6 text-right">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container">
+                
+            <div class="col-6 pb-3"> <span class="align-middle">
+                <img src="images/Logo_tomato.png" style="padding-top: 18px; max-width: 150%;">
+            </span></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="col-12 text-right">
                     <div class="searcher">
 						<input type="text" placeholder="Search..."><button class="search"></button>    
 						</div>
@@ -39,17 +44,19 @@
 						</div>
                 </div>
             </div>
-        </div>
+            </div>
+          </nav>
     </header>
 
     <middle>
         <div class="colored">
-        <img src="images/tomatoes.png">
+        <img src="images/tomatoes.png" style="width: 100%; text-align: center; height: 50%;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="topic" style="font-size:48px; padding-top: 50px;">Agridera Fresh Market Tomato Hybrids</div>
-								<img src="images/Union.svg" style="padding-top: 33px;padding-bottom: 24px;">
+                                <div class="center">
+								<img src="images/Union.svg" style="padding-top: 33px;padding-bottom: 24px;"></div>
 								<p></p><div class="main_tomato">
 									Agridera aims to be one of the world's leading companies in the breeding, production, 
                                     and marketing of tomato seeds. <b>We invest intensively in research and development to provide 
@@ -72,120 +79,66 @@
                     </div>
                     <div class="container">
                         <div class="row pt-5 mt-2 bg-white align-text-bottom topic_market" style="font-size:20px">
-                            <div class="col-4"><b>
-                                Greenhouse Tomato Breeding Program</b>
+                            <div class="col-md-4"><div class="heit_topic"><b>
+                                Greenhouse Tomato Breeding Program</b></div>
+                                <div class="bg-white text_market" style="font-size:17px">
+                                    <hr class="hr_tomato" width=100%>
+                                    <b>This breeding is aimed for the Spanish and Turkish markets.</b> 
+                                    For single and cluster picks, round fruit shape and resistances 
+                                    of TYLCV, TSWV, Nematodes and FORL (Fusarium oxysporum f.sp. 
+                                    radicis-lycopersici). Some hybrids may include more resistances, 
+                                    such as Cladosporium and Leveillula Taurica (Lv). 
+                                </div>
                             </div>
-                            <div class="col-4"><b>
-                                Open-field Indeterminate Tomatoes</b>
-                            </div>
-                            <div class="col-4"><b>
-                                Open-field Bush Type Tomatoes</b>
-                            </div>
-                        </div>
-                        <div class="row bg-white pb-5 text_market" style="font-size:17px">
-                            <div class="col-4">
-                                <hr class="hr_tomato" width=100%>
-                                <b>This breeding is aimed for the Spanish and Turkish markets.</b> 
-                                For single and cluster picks, round fruit shape and resistances 
-                                of TYLCV, TSWV, Nematodes and FORL (Fusarium oxysporum f.sp. 
-                                radicis-lycopersici). Some hybrids may include more resistances, 
-                                such as Cladosporium and Leveillula Taurica (Lv). 
-                            </div>
-                            <div class="col-4">
-                                <hr class="hr_tomato" width=100%>
+                            <div class="col-md-4"><div class="heit_topic"><b>
+                                Open-field Indeterminate Tomatoes</b></div>
+                                <div class="bg-white text_market" style="font-size:17px">
+                                    <hr class="hr_tomato" width=100%>
                                 <b>This breeding is for Brazilian, Moroccan, and Turkish markets. </b>
                                 The main focus is on large round shape fruits (200 grams plus); 
                                 and resistances of TYLCV, TSWV, Nematodes and FORL. In the near
                                 future, F3 (Fusarium oxysporum f.sp. lycopersici) will be included 
                                 as basic resistance in our cultivars. 
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <hr class="hr_tomato" width=100%>
+                            <div class="col-md-4 pb-3 mb-2"><div class="heit_topic"><b>
+                                Open-field Bush Type Tomatoes</b></div>
+                                <div class="bg-white text_market" style="font-size:17px">
+                                    <hr class="hr_tomato" width=100%>
                                 <b>This breeding is for Mediterranean markets.</b> We breed round and elongated shapes, 
                                 standard sizes (140- 180 grams), and beef sizes (min. 180 grams up to 300 grams and more). 
                                 We combine the resistances of TYLCV, TSWV and Nematodes as basic resistances in our hybrids.
                                 However, some hybrids may include more resistances, such as Cladosporium and Leveillula Taurica (Lv).
+                                </div>
                             </div>
                         </div>
                         <p></p>
                         <div style="border-left: 3px solid #EB5757; padding-left: 22px;"><b>Agridera operates through international and local distributers around the world.</b><p></p></div>
-                        <div class="container">
+                        
+
+                        <div id="app">
+                        <div class="container-fluid">
                             <div class="row">
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag100000.PNG" class="tomato_id">
+                                <div class="card" v-if="products" v-for="p in products" ><a v-bind:href="p.link" class="tomato_link">
+                                    <img v-bind:src="p.image" class="tomato_id">
                                     <div class="container" style="padding-top: 8px;">
                                         <div class="text-center">
-                                        <h5><b>TAG 1000 (TAG 853)</b></h5>
-                                        Tomato Determinate Red Standard Round</div>
-                                    </div>
-                                </div></a>
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag1001.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1001 (TAG 855)</b></h5>
-                                        Tomato Determinate Red Standard Round</div>
-                                    </div>
-                                </div></a>
-                                <a href="tomato_one.html" class="tomato_link"><div class="card">
-                                    <img src="images/tag1002.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1002 (TAG 809)</b></h5>
-                                        Tomato Determinate Red Standard Round</div>
-                                    </div>
-                                </div></a>
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag1003.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1003 (TAG 834)</b></h5>
-                                        Tomato Determinate Red Standard Round</div>
-                                    </div>
-                                </div></a>
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag1004.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1004 (TAG 848)</b></h5>
-                                        Tomato Determinate Red BEEF Round</div>
-                                    </div>
-                                </div></a>
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag1005.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1005 (TAG 800)</b></h5>
-                                        Tomato Determinate Red Standard Round</div>
-                                    </div>
-                                </div></a>
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag1006.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1006 (TAG 898)</b></h5>
-                                        Tomato Determinate Red Elongated</div>
-                                    </div>
-                                </div></a>
-                                <a href="" class="tomato_link"><div class="card">
-                                    <img src="images/tag1007.png" class="tomato_id">
-                                    <div class="container" style="padding-top: 8px;">
-                                        <div class="text-center">
-                                        <h5><b>TAG 1000 (TAG 853)</b></h5>
-                                        Tomato Determinate Red Elongated</div>
+                                        <h5><b>{{p.title}}</b></h5>
+                                        {{p.short_text}}</div>
                                     </div>
                                 </div></a>
                             </div>
-                    </div>               
+                        </div> 
+                        </div>              
                 </div>
     </middle>
 
 
-    <footer class="page-footer colorr ">
+	<footer class="page-footer colorr ">
         <div class="container">
         <div class="row align-middle pt-3 pb-3"> 
-            <div class="col-8">
-                <div class="footer_links">
+            <div class="col-md-8">
+                <div class="footer_links text-justify">
                         <a href="#" class="link">PROFILE</a> 
                         <a href="#" class="link">MANAGEMENT</a> 
                         <a href="#" class="link">PRODUCTS</a> 
@@ -195,7 +148,7 @@
                         <a href="#" class="link">CONTACT</a> 
                         </div>
             </div>
-            <div class="col-4 text-left footer_images">
+            <div class="col-md-4 footer_images footer_img">
                 <a href=""><img src="images/in.svg"></a>
                 <a href=""><img src="images/insta.svg"></a>
                 <a href=""><img src="images/youtube.svg"></a>
@@ -207,6 +160,18 @@
         <div class="footer-copyright pt-3 pb-3 text-center align-middle text_color">
             AGRIDERA SEEDS & AGRICULTURE LTD. © 2020 
         </div>
-    </footer>		
+    </footer>	
+
+<section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="css/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/vue@3"></script>
+<script src="js/main.js"></script>		
+</section>
+
 </body>
 </html>

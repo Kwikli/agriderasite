@@ -8,26 +8,31 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font.css">
-
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
 
-	<title>Contact us</title>
+<title>Contact us</title>
 </head>	
 <body>
     <script src="css/bootstrap.bundle.min.js"></script>
 
     <header class="shadow_head">
-        <div class="container">
-            <div class="row">
-                <div class="col-6"> <span class="align-middle">
-                    <img src="images/Logo_tomato.png" style="padding-top: 18px;">
-                </span></div>
-                <div class="col-6 text-right">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container">
+                
+            <div class="col-6 pb-3"> <span class="align-middle">
+                <img src="images/Logo_tomato.png" style="padding-top: 18px; max-width: 150%;">
+            </span></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="col-12 text-right">
                     <div class="searcher">
-						<input type="text" placeholder="Search..."><button class="search"></button>   
-					</div>
+						<input type="text" placeholder="Search..."><button class="search"></button>    
+						</div>
 						<p></p>
 						<div class="h_size" style="padding-top: 11px; padding-bottom: 19px;"> 
 							<a href="index.html">Home</a>
@@ -39,17 +44,18 @@
 						</div>
                 </div>
             </div>
-        </div>
+            </div>
+          </nav>
     </header>
 
     <middle>
         <div class="contact_us">
-            <img src="images/contactus.jpg">
-            <div class="container pb-5 pt-4">
+            <img src="images/contact_us.jpg">
+            <div class="container pb-5 pt-4 mrg_right">
                     <div class="topic_contact">Contact us</div>
                     <p><img src="images/Union.svg" style="margin-top: 32px;margin-bottom: 10px;">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-lg-5">
                                 <div class="name">
                                     <div class="input">Name * <p style="margin-bottom: 4px;"></p>
                                     <input type="text" name="firstname" id="fname" class="contact_input">
@@ -86,7 +92,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7">
+                            <div class="col-lg-7">
                                 <div class="name">
                                 <div class="input">You are a <p style="margin-bottom: 4px;"></p>
                                 <select id="you_are" class="contact_input" name="iam" style="width: 635px;">
@@ -106,9 +112,9 @@
                                         <input type="text" name="interested" id="interested" class="contact_input" style="width: 635px; height: 317px;">
                                         </div>
                                     </div>    
-                                    <div class="name">
+                                    <div class="name center">
                                         <div class="input">Please type this code<p style="margin-bottom: 4px; width: 40px;"></p>
-                                            <img src="images/codee.svg"><input type="text" name="interested" id="interested" class="contact_input" style="margin-left: 22px;width:250px;margin-right: 20px;  "> 
+                                            <img src="images/code.svg"><input type="text" name="interested" id="interested" class="contact_input" style="margin-left: 22px;width:250px;margin-right: 20px; max-width: 33%; "> 
                                             <button class="btn read_more_b send_mes text-right" style="text-align: center; border-radius:25px; padding-top: 9px;">Send Message</button>
                                             
                                             </div>
@@ -127,11 +133,11 @@
             </div>
     </middle>
 
-    <footer class="page-footer colorr ">
+	<footer class="page-footer colorr ">
         <div class="container">
         <div class="row align-middle pt-3 pb-3"> 
-            <div class="col-8">
-                <div class="footer_links">
+            <div class="col-md-8">
+                <div class="footer_links text-justify">
                         <a href="#" class="link">PROFILE</a> 
                         <a href="#" class="link">MANAGEMENT</a> 
                         <a href="#" class="link">PRODUCTS</a> 
@@ -141,7 +147,7 @@
                         <a href="#" class="link">CONTACT</a> 
                         </div>
             </div>
-            <div class="col-4 text-left footer_images">
+            <div class="col-md-4 footer_images footer_img">
                 <a href=""><img src="images/in.svg"></a>
                 <a href=""><img src="images/insta.svg"></a>
                 <a href=""><img src="images/youtube.svg"></a>
@@ -154,5 +160,11 @@
             AGRIDERA SEEDS & AGRICULTURE LTD. © 2020 
         </div>
     </footer>		
+    
+    <section>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </section>
 </body>
 </html>    
