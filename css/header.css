@@ -14,10 +14,11 @@ html{
     background-position:top;
 }
 
-.header-background_300{
-    background:url(../images//Banner_bg_line_300.png);
+.header-background_165{
+    background:url(../images//Banner_bg_line_165.png);
     background-repeat: no-repeat;
     background-position:top;
+    background-size: cover;
 }
 
 .plogo{
